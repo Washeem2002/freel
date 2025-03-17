@@ -82,8 +82,8 @@ const Home = () => {
         <section id="aboutus" className="py-20 px-6 text-center ">
           <h3 className="text-4xl font-bold">About Us</h3>
           <div className="w-full flex items-center justify-center">
-          <p className="mt-4 text-[15px] sm:text-2xl sm:max-w-[50vw]">"Organic world is sourced from home-based producers and farmers from the Himalayas.
-Our hyperlocal sourcing and delivery model assures that our suppliers receive the full value of their produce, while our customers get the flavour and taste of unadulterated goodness of nature!"</p>
+          <p className="mt-4 text-[15px] sm:text-2xl sm:max-w-[50vw]">&quot;Organic world is sourced from home-based producers and farmers from the Himalayas.
+Our hyperlocal sourcing and delivery model assures that our suppliers receive the full value of their produce, while our customers get the flavour and taste of unadulterated goodness of nature!&quot;</p>
 </div>
         </section>
 

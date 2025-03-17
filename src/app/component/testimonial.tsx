@@ -60,8 +60,8 @@ const Testimonials: React.FC = () => {
       >
         {testimonials.map((testimonial, index) => (
           <div key={index} className="min-w-[90%] sm:min-w-[60%] md:min-w-[40%] lg:min-w-[30%] p-4 bg-white rounded-2xl shadow-lg scroll-snap-align-center transition-transform transform hover:scale-105">
-            <p className="italic text-base md:text-lg text-gray-700 break-words whitespace-normal">"{testimonial.text}"</p>
-            <p className="font-semibold mt-3 text-sm md:text-base text-green-900">- {testimonial.name}</p>
+            <p className="italic text-base md:text-lg text-gray-700 break-words whitespace-normal">{testimonial.text}</p>
+            <p className="font-semibold mt-3 text-sm md:text-base text-green-900">{testimonial.name}</p>
           </div>
         ))}
       </div>
