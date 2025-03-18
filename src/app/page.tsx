@@ -25,7 +25,7 @@ const Home = () => {
       <div className=" w-full flex justify-between items-center  bg-white px-3 py-2 rounded border-b-5 border-green-900 shadow-lg">
         {/* Logo and Title */}
         <div className="flex items-center gap-4">
-          <img src="/logo.png" alt="Organic World Logo" className="w-[120px] h-[50px] sm:w-[150px] sm:h-[70px]"></img>
+          <img src="Untitled.png" alt="Organic World Logo" className="w-[120px] h-[50px] sm:w-[150px] sm:h-[70px]"></img>
           {/* <h1 className="text-2xl font-extrabold text-green-800 tracking-wide drop-shadow-md font-organic">Organic World</h1> */}
         </div>
 
@@ -68,7 +68,7 @@ const Home = () => {
           <div className="absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 w-full">
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold">🌿 Fresh & Organic Products</h2>
           <p className="mt-4 text-xl">Healthy, sustainable, and chemical-free.</p>
-          <button className="mt-6 px-8 py-3 bg-yellow-300 text-green-700 rounded-full font-bold shadow-lg text-xl hover:bg-yellow-400" onClick={() =>{ document.location.href ='tel:917047326677';}}>Shop Now</button>
+          <button className="mt-6 px-8 py-3 bg-yellow-300 text-green-700 rounded-full font-bold shadow-lg text-xl hover:bg-yellow-400" onClick={() =>{ document.location.href ='tel:9170012369123';}}>Shop Now</button>
           </div>
          
           <img 
@@ -104,7 +104,7 @@ Our hyperlocal sourcing and delivery model assures that our suppliers receive th
                   Freshly harvested and packed with antioxidants for a healthy lifestyle.
                 </p>
                 <div className="mt-3 flex items-center justify-center">
-                  <button className="bg-green-600 text-white px-6 py-2 rounded-lg text-md hover:bg-green-700 transition" onClick={() =>{ document.location.href ='tel:917047326677';}}>
+                  <button className="bg-green-600 text-white px-6 py-2 rounded-lg text-md hover:bg-green-700 transition" onClick={() =>{ document.location.href ='tel:9170012369123';}}>
                     Buy Now
                   </button>
                 </div>
@@ -118,7 +118,7 @@ Our hyperlocal sourcing and delivery model assures that our suppliers receive th
         <Testimonials/>
 
         {/* Footer */}
-        <footer className="bg-green-900 text-white py-6" id="contact">
+        <footer className="bg-green-600 text-white py-6" id="contact">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-6">
         {/* Logo */}
         <div className="flex items-center space-x-3">
@@ -131,22 +131,22 @@ Our hyperlocal sourcing and delivery model assures that our suppliers receive th
               
             />
           
-          <h2 className="text-xl font-semibold">Organic World</h2>
+          <h2 className="text-xl font-semibold">Organic Treasures</h2>
         </div>
 
         {/* Contact Info */}
         <div className="text-center md:text-left mt-4 md:mt-0">
           <p className="text-lg font-medium">Contact Us</p>
-          <p><FaEnvelope className="inline-block mr-2" /> organicgiftofnature@gmail.com</p>
-          <p><FaPhone className="inline-block mr-2" /> +91-7047326677</p>
+          <p><FaEnvelope className="inline-block mr-2" /> organictreasuresoriginals@gmail.com</p>
+          <p><FaPhone className="inline-block mr-2" /> +91-70012369123</p>
           <p><FaMapMarkerAlt className="inline-block mr-2" /> Gangtok | Kathmandu | Guwahti</p>
         </div>
 
         {/* Social Media Links */}
         <div className="mt-4 md:mt-0 flex space-x-4">
-          <span  className="hover:text-green-300 flex items-center" onClick={() =>{ document.location.href ='tel:917047326677';}}><FaFacebook className="mr-2" /> Facebook</span>
-          <span className="hover:text-green-300 flex items-center" onClick={() =>{ document.location.href ='tel:917047326677';}}><FaInstagram className="mr-2" /> Instagram</span>
-          <span  className="hover:text-green-300 flex items-center" onClick={() =>{ document.location.href ='tel:917047326677';}}><FaTwitter className="mr-2" /> Twitter</span>
+          <span  className="hover:text-green-300 flex items-center" onClick={() =>{ document.location.href ='tel:9170012369123';}}><FaFacebook className="mr-2" /> Facebook</span>
+          <span className="hover:text-green-300 flex items-center" onClick={() =>{ document.location.href ='tel:9170012369123';}}><FaInstagram className="mr-2" /> Instagram</span>
+          <span  className="hover:text-green-300 flex items-center" onClick={() =>{ document.location.href ='tel:9170012369123';}}><FaTwitter className="mr-2" /> Twitter</span>
         </div>
       </div>
 
